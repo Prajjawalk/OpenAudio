@@ -1,0 +1,24 @@
+{
+  "name": "toucanrelay-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for toucanrelay",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "type": "module",
+  "author": "Prajjawal Khandelwal",
+  "license": "MIT",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
